@@ -1,0 +1,131 @@
+/* Estilização das Abas */ 
+main {
+    margin: 10px 10px 0 10px;
+}
+
+.boasvindas {
+    display: flex;
+    font-size: 1.3em;
+}
+
+.boasvindas > p {
+    margin: 0 5px 20px 0;
+}
+
+.abas {
+    display: flex;
+}
+
+.abas button {
+    margin-right: 10px;
+    padding: 5px 10px 2px 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: #ddd;
+    transition: 0.3s;
+}
+
+.abas button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.abas button.active {
+    background-color: #5753A6;
+    color: white;
+}
+
+/* Estilização do Painel Central */
+
+.painel {
+    /*background-color: white;
+    border: 10px solid #5753A6;*/
+    padding: 0 20px 0 20px;
+}
+
+.painel > div > div {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.painel > .tabcontent > h2 {
+    margin-top: 20px;
+}
+
+.tabela_cnpjs_adicionais > td > p, .tabela_modulos_adicionais > td > p {
+    font-size: 1em;
+}
+
+th {
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.tabela_boletos > td, .tabela_notas > td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.valorboleto, .valornota {
+    width: 150px;
+}
+
+.linkboleto {
+    width: 100px;
+}
+
+td > a > img {
+    display: flex;
+    margin: auto;
+}
+
+.titulo_modulo_cnpj {
+    margin-right: 4px;
+}
+
+@media (max-width: 728px) {
+    .boasvindas{
+        font-size: 1.3em;
+    }
+
+    .abas > button > h2{
+        font-size: 1em;
+    }
+
+    .painel {
+        padding: 0px;
+    }
+
+    .painel > .tabcontent > div {
+        font-size: 0.8em;
+    }
+
+    th {
+        font-size: 1em;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 525px) {
+    .tabela_cnpjs_adicionais {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .boasvindas{
+        font-size: 1em;
+    }
+
+    .abas > button > h2{
+        font-size: 0.8em;
+    }
+
+    .painel > .tabcontent > h2 {
+        margin: 10px 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .tabela_boletos > td, .tabela_notas > td {
+        font-size: 0.9em;
+    }
+}

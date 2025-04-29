@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login > h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+input::placeholder {
+    font-size: 0.8em; /* Tamanho da fonte desejado */
+    padding-left: 5px;
+}
+
+.login > form > p {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login > form > p > input {
+    width: 230px;
+    padding-left: 5px;
+}
+
+.login > form > .botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.login > form > .botao > button {
+    background-color: #00d2ff;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login > form > .botao > button:hover {
+    background-color: #00bee8;
+}

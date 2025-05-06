@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/header.css?v=<?php echo filemtime('css/header.css'); ?>">
 <div class="cabecalho">
     <header>
         <h1 class="title"><a href="/resetsistemas">Reset Sistemas</a></h1>

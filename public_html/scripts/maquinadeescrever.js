@@ -1,4 +1,4 @@
-const palavras = ['set', 'imagine', 'alinhe', 'invista', 'faça', 'inicie','invente','conecte'];
+const palavras = ['set', 'imagine', 'alinhe', 'invista', 'faça', 'inicie', 'set', 'invente','conecte','nove', 'comece', 'pense'];
 let indicePalavraAtual = 0;
 
 // Função para escrever cada letra

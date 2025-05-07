@@ -1,5 +1,6 @@
 <?php $texto = 'set'; ?>
 <?php include __DIR__ . '/../head.php'; ?>
+<link rel="stylesheet" href="css/styles.css?v=<?php echo filemtime('css/styles.css'); ?>">
 <link rel="stylesheet" href="css/index.css?v=<?php echo filemtime('css/index.css'); ?>">
 </head>
 
@@ -13,7 +14,7 @@
       </div>
       <script src="scripts/maquinadeescrever.js?v=<?php echo filemtime('scripts/maquinadeescrever.js'); ?>"></script>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include __DIR__ . '/../footer.php'; ?>
   </main>
 </body>
 

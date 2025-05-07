@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/header.css?v=<?php echo filemtime('css/header.css'); ?>">
 <div class="cabecalho">
     <header>
-        <h1 class="title"><a href="/resetsistemas">Reset Sistemas</a></h1>
+        <h1 class="title"><a href="/">Reset Sistemas</a></h1>
         <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
         <ul class="menu">
             <a href="agendamento.php"><li>Agendamento</li></a>

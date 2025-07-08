@@ -1,5 +1,8 @@
-<?php $texto = 'set'; ?>
-<?php include __DIR__ . '/../head.php'; ?>
+<?php
+include __DIR__ . '/../head.php';
+
+$texto = 'set';
+?>
 <link rel="stylesheet" href="css/styles.css?v=<?php echo filemtime('css/styles.css'); ?>">
 <link rel="stylesheet" href="css/index.css?v=<?php echo filemtime('css/index.css'); ?>">
 </head>

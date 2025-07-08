@@ -3,7 +3,7 @@
     <header>
         <h1 class="title"><a href="/">Reset Sistemas</a></h1>
         <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
-        <ul class="menu">
+        <ul class="menu" style="display:none;">
             <a href="agendamento.php"><li>Agendamento</li></a>
             <?php if(!isset($_SESSION['id'])): ?>
             <a href="cliente.php"><li>Cliente</li></a>

@@ -10,7 +10,7 @@ if (isset($_SESSION['id_supervisor'])) {
 include __DIR__ . '/head.php';
 ?>
 <link rel="stylesheet" href="../css/styles.css?v=<?php echo filemtime('../css/styles.css'); ?>">
-<link rel="stylesheet" href="../css/supervisor/login.css?v=<?php echo filemtime('../css/supervisor/login.css'); ?>">
+<link rel="stylesheet" href="css/login.css?v=<?php echo filemtime('css/login.css'); ?>">
 </head>
 
 <body>
@@ -48,7 +48,7 @@ include __DIR__ . '/head.php';
 
             <button class="button-submit" id="login">Entrar</button>
         </form>
-        <script src="../scripts/supervisor/login.js?v=<?php echo filemtime('../scripts/supervisor/login.js'); ?>"></script>
+        <script src="scripts/login.js?v=<?php echo filemtime("scripts/login.js"); ?>"></script>
     </main>
 </body>
 

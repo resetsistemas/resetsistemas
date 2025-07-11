@@ -1,70 +1,73 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    appearance: none;
-    border: none;
-    outline: none;
-    /*Todos os comandos acima são para tirar os estilos padrões do navegador*/
-  }
-  
-  :root {
-    /* CORES */
-    --body-color: #18191a;
-    --sidebar-color: #242526;
-    --primary-color: #3a3b3c;
-    --primary-color-light: #3a3b3c;
-    --toggle-color: #fff;
-    --text-color: #ccc;
-  
-    /* TRANSIÇÕES */
-    --tran-02: all 0.2s ease;
-    --tran-03: all 0.3s ease;
-    --tran-04: all 0.4s ease;
-    --tran-05: all 0.5s ease;
-    --tran-10: all 1s ease;
-  }
-  
-  body.dark {
-    --body-color: #E4E9F7;
-    --sidebar-color: #FFF;
-    --primary-color: #695CFE;
-    --primary-color-light: #F6F5FF;
-    --toggle-color: #DDD;
-    --text--color: #707070;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  body {
-    background: linear-gradient(45deg, var(--sidebar-color) 30%, var(--body-color) 70%);
-    margin: auto;
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 100vh;
-    margin: auto;
-  }
-  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  outline: none;
+  /*Todos os comandos acima são para tirar os estilos padrões do navegador*/
+}
+
+body.dark {
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text--color: #707070;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    var(--sidebar-color) 30%,
+    var(--body-color) 70%
+  );
+  margin: auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100dvw;
+  min-height: 100vh;
+}
+
+.rodape {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+:root {
+  /* CORES */
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+
+  /* TRANSIÇÕES */
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+  --tran-10: all 1s ease;
+}
+
+@media (max-width: 400px) {
   .rodape {
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    color: #FFF;
-    text-align: center;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
-  
-  @media (max-width: 400px) {
-    .rodape {
-      font-size: 0.6em;
-    }
-  }
+}

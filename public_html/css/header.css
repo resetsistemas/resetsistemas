@@ -1,74 +1,24 @@
 header {
-    margin: 0px 20px 0px 20px;
-    height: 80px;
-    display: flex; /*Por padrão deixa todos os itens dentro dele em linha horiontal*/
-    justify-content: space-between; /*Comando para o "display:flex" = coloca o item 1 e o 2 nas extremidades, e divide o espaço do meio para os outros */
-    align-items: center; /*Comando para o "display:flex" = alinha os itens no meio da linha na vertical*/
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 60px;
 }
 
-header > h1 {
-    color: white;
-}
-
-ul, li {
-    list-style-type: none;
-    display: flex; /*Por padrão deixa todos os itens dentro dele em linha horizontal*/
-    justify-content: center;
-}
-
-.menu > a {
-    background-color: #00e5ff;
-    padding: 5px 15px 5px 15px;
-    border-radius: 20px;
-    margin: 5px;
-    transition: box-shadow 0.5s ease, color 0.5s ease, background-color 0.5s ease;
-    box-shadow: 2px 2px 3px #1c315c;
-}
-
-.menu > a:hover {
-    box-shadow: 5px 5px 10px #1c315c;
-    color: white;
-    background-color: #00b7ff;
-}
-
-.menu-toggle {
-    display: none;
-    font-size: 20px;
-}
+header h1 {
+  color: white;
+} 
 
 @media (max-width: 728px) {
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 15px;
-        z-index: 1000;
-    }
-
-    .menu-toggle {
-        display: block;
-        padding: 0 8px 0 8px;
-        background-color: white;
-        border-radius: 5px;
-    }
-
-    header > button.active {
-        background-color: #1c315c;
-    }
-
-    .menu.visible {
-        display: flex;
-    }
+  h1 {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 400px) {
-    h1 {
-        font-size: 2em;
-    }
+  h1 {
+    font-size: 2em;
+  }
 }

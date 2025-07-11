@@ -71,9 +71,8 @@ $texto = 'set';
                   class="absolute inset-[3px] bg-gray-900 rounded-[4px] flex items-center justify-center overflow-hidden">
                   <div
                     class="absolute inset-0 bg-gradient-to-br from-indigo-900/20 to-purple-900/20"></div>
-                  <div
-                    class="font-bold text-lg bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-                    FN
+                  <div class="flex items-center justify-center">
+                    <img src="../img/img-sistema/logo-reset-gradiente.svg" class="w-6 h-6" alt="Logo Reset">
                   </div>
                 </div>
               </div>
@@ -189,22 +188,23 @@ $texto = 'set';
               </div>
             </div>
             <p class="text-xl md:text-2xl text-gray-400 max-w-3xl mb-8">
-              Cutting-edge UI components designed for the next generation web
-              interfaces
+              Combinamos ERP, automação e desenvolvimento sob medida para levar sua empresa a um nível maior de agilidade, controle e escalabilidade.
             </p>
             <div class="flex gap-4 flex-wrap justify-center">
               <div class="relative group">
                 <div
                   class="absolute -inset-0.5 bg-gradient-to-r from-indigo-600/50 to-purple-600/50 rounded-lg blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
                 <button
-                  class="px-6 py-3 bg-gradient-to-r from-indigo-900/90 to-purple-900/90 rounded-lg text-white text-base font-medium relative z-10 flex items-center justify-center gap-2 group-hover:from-indigo-800/90 group-hover:to-purple-800/90 transition-all duration-300 transform group-hover:scale-105 group-active:scale-95">
+                  class="px-6 py-3 bg-gradient-to-r from-indigo-900/90 to-purple-900/90 rounded-lg text-white text-base font-medium relative z-10 flex items-center justify-center gap-2 group-hover:from-indigo-800/90 group-hover:to-purple-800/90 transition-all duration-300 transform group-hover:scale-105 group-active:scale-95"
+                  onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
                   <span
-                    class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Get Started</span>
+                    class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Quero conhecer</span>
                 </button>
               </div>
               <button
-                class="px-6 py-3 bg-transparent border border-cyan-500/30 rounded-lg text-cyan-400 text-base font-medium flex items-center justify-center gap-2 hover:bg-cyan-900/10 hover:border-cyan-500/50 transition-all duration-300">
-                Learn More
+                class="px-6 py-3 bg-transparent border border-cyan-500/30 rounded-lg text-cyan-400 text-base font-medium flex items-center justify-center gap-2 hover:bg-cyan-900/10 hover:border-cyan-500/50 transition-all duration-300"
+                onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+                Sobre
               </button>
             </div>
           </div>
@@ -233,11 +233,11 @@ $texto = 'set';
               <div class="inline-block mb-3">
                 <div
                   class="text-xs text-cyan-400 tracking-widest uppercase mb-1">
-                  About Our Technology
+                  Sobre nossas soluções
                 </div>
                 <div
                   class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                  Next Generation UI
+                  Transformando desafios em resultados
                 </div>
               </div>
               <div
@@ -251,12 +251,10 @@ $texto = 'set';
                   class="relative bg-gray-900/70 backdrop-blur-lg border border-indigo-500/20 p-6 rounded-xl shadow-xl group-hover:border-indigo-500/40 transition-all duration-300">
                   <div class="flex flex-col">
                     <div class="font-medium text-xl text-white mb-3">
-                      Futuristic Design Approach
+                      ERP sob medida para seu negócio
                     </div>
                     <p class="text-gray-400">
-                      Our design system uses cutting-edge techniques like
-                      glassmorphism, subtle gradients, and neon accents to
-                      create interfaces that feel like they're from the future.
+                      Sistemas de gestão desenvolvidos conforme a realidade da sua empresa, centralizando processos, reduzindo erros e trazendo mais controle para todas as áreas.
                     </p>
                   </div>
                 </div>
@@ -268,12 +266,40 @@ $texto = 'set';
                   class="relative bg-gray-900/70 backdrop-blur-lg border border-purple-500/20 p-6 rounded-xl shadow-xl group-hover:border-purple-500/40 transition-all duration-300">
                   <div class="flex flex-col">
                     <div class="font-medium text-xl text-white mb-3">
-                      Advanced User Experience
+                      Automações que economizam tempo
                     </div>
                     <p class="text-gray-400">
-                      Every interaction is carefully crafted to provide fluid
-                      transitions, intuitive feedback, and a seamless browsing
-                      experience across all devices.
+                      Automatize tarefas repetitivas, relatórios e rotinas operacionais. Menos retrabalho, mais agilidade — e sua equipe focada no que realmente importa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-xl blur-sm group-hover:bg-indigo-500/30 transition-all duration-500"></div>
+                <div
+                  class="relative bg-gray-900/70 backdrop-blur-lg border border-indigo-500/20 p-6 rounded-xl shadow-xl group-hover:border-indigo-500/40 transition-all duration-300">
+                  <div class="flex flex-col">
+                    <div class="font-medium text-xl text-white mb-3">
+                      Integração entre setores e sistemas
+                    </div>
+                    <p class="text-gray-400">
+                      Unifique vendas, estoque, financeiro e produção em uma única plataforma. Tudo se comunica em tempo real, evitando falhas e aumentando a produtividade.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-xl blur-sm group-hover:bg-purple-500/30 transition-all duration-500"></div>
+                <div
+                  class="relative bg-gray-900/70 backdrop-blur-lg border border-purple-500/20 p-6 rounded-xl shadow-xl group-hover:border-purple-500/40 transition-all duration-300">
+                  <div class="flex flex-col">
+                    <div class="font-medium text-xl text-white mb-3">
+                      Soluções personalizadas em software
+                    </div>
+                    <p class="text-gray-400">
+                      Desenvolvemos sistemas específicos para sua necessidade, seja controle interno, atendimento ao cliente ou ferramentas exclusivas.
                     </p>
                   </div>
                 </div>
@@ -293,11 +319,11 @@ $texto = 'set';
               <div class="inline-block mb-3">
                 <div
                   class="text-xs text-cyan-400 tracking-widest uppercase mb-1">
-                  What We Offer
+                  O que oferecemos?
                 </div>
                 <div
                   class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                  Our Services
+                  Nossos Serviços
                 </div>
               </div>
               <div
@@ -328,17 +354,16 @@ $texto = 'set';
                       </div>
                       <div
                         class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors">
-                        UI Design
+                        ERP de alta confiabilidade
                       </div>
                     </div>
                     <p class="text-gray-400 mb-4">
-                      Create stunning user interfaces with our futuristic design
-                      components and templates.
+                      Confiabilidade real para gerenciar dados, processos e resultados com segurança e eficiência.
                     </p>
                     <a
-                      href="#"
+                      href="#contact"
                       class="mt-auto text-indigo-400 hover:text-indigo-300 inline-flex items-center">
-                      Learn more
+                      Eu quero
                       <svg
                         class="w-4 h-4 ml-1"
                         fill="none"
@@ -379,17 +404,16 @@ $texto = 'set';
                       </div>
                       <div
                         class="font-medium text-lg text-purple-300 group-hover:text-purple-200 transition-colors">
-                        Development
+                        Desenvolvimento de sistemas
                       </div>
                     </div>
                     <p class="text-gray-400 mb-4">
-                      Turn designs into functional websites with our clean,
-                      optimized code implementation.
+                      Transformamos suas demandas em sistemas funcionais, inteligentes e totalmente adaptados.
                     </p>
                     <a
-                      href="#"
+                      href="#contact"
                       class="mt-auto text-purple-400 hover:text-purple-300 inline-flex items-center">
-                      Learn more
+                      Eu quero
                       <svg
                         class="w-4 h-4 ml-1"
                         fill="none"
@@ -430,17 +454,16 @@ $texto = 'set';
                       </div>
                       <div
                         class="font-medium text-lg text-cyan-300 group-hover:text-cyan-200 transition-colors">
-                        UX Research
+                        Integração E-commerce
                       </div>
                     </div>
                     <p class="text-gray-400 mb-4">
-                      Improve user experience through data-driven insights and
-                      comprehensive user testing.
+                      Unifique operações online e offline com integração completa entre sistema e loja virtual.
                     </p>
                     <a
-                      href="#"
+                      href="#contact"
                       class="mt-auto text-cyan-400 hover:text-cyan-300 inline-flex items-center">
-                      Learn more
+                      Eu quero
                       <svg
                         class="w-4 h-4 ml-1"
                         fill="none"
@@ -471,11 +494,11 @@ $texto = 'set';
               <div class="inline-block mb-3">
                 <div
                   class="text-xs text-cyan-400 tracking-widest uppercase mb-1">
-                  Our Work
+                  Depoimentos
                 </div>
                 <div
                   class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                  Featured Projects
+                  Resultados de quem confia na gente
                 </div>
               </div>
               <div
@@ -603,11 +626,11 @@ $texto = 'set';
               <div class="inline-block mb-3">
                 <div
                   class="text-xs text-cyan-400 tracking-widest uppercase mb-1">
-                  Get In Touch
+                  Vamos conversar
                 </div>
                 <div
                   class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-                  Contact Us
+                  Queremos te conhecer
                 </div>
               </div>
               <div
@@ -619,7 +642,7 @@ $texto = 'set';
                 <div
                   class="bg-gray-900/70 backdrop-blur-lg border border-indigo-500/20 p-6 rounded-xl shadow-xl">
                   <div class="text-xl font-medium text-white mb-4">
-                    Contact Information
+                    Informações de contato
                   </div>
                   <div class="space-y-4">
                     <div class="flex items-start">
@@ -640,11 +663,11 @@ $texto = 'set';
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                       </svg>
                       <div>
-                        <div class="text-sm text-gray-400">Address</div>
+                        <div class="text-sm text-gray-400">Endereço</div>
                         <div class="text-white">
-                          100 Tech Plaza, Innovation District
+                          Centro, Aracruz,
                         </div>
-                        <div class="text-white">San Francisco, CA 94103</div>
+                        <div class="text-white">Espírito Santo, Brasil</div>
                       </div>
                     </div>
                     <div class="flex items-start">
@@ -663,7 +686,7 @@ $texto = 'set';
                         <div class="text-sm text-gray-400">Email</div>
                         <a
                           href="mailto:info@futurenav.com"
-                          class="text-white hover:text-cyan-400 transition-colors">info@futurenav.com</a>
+                          class="text-white hover:text-cyan-400 transition-colors">contato@resetsistemas.com.br</a>
                       </div>
                     </div>
                     <div class="flex items-start">
@@ -679,19 +702,37 @@ $texto = 'set';
                           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                       </svg>
                       <div>
-                        <div class="text-sm text-gray-400">Phone</div>
+                        <div class="text-sm text-gray-400">Telefone</div>
                         <a
-                          href="tel:+14155552671"
-                          class="text-white hover:text-cyan-400 transition-colors">+1 (415) 555-2671</a>
+                          href="tel:+5527981078568"
+                          class="text-white hover:text-cyan-400 transition-colors">(27) 98107-8568</a>
+                      </div>
+                    </div>
+                    <div class="flex items-start">
+                      <svg
+                        class="w-5 h-5 text-cyan-400 mt-1 mr-3"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M19.077,4.928C17.191,3.041,14.683,2.001,12.011,2c-5.506,0-9.987,4.479-9.989,9.985 c-0.001,1.76,0.459,3.478,1.333,4.992L2,22l5.233-1.237c1.459,0.796,3.101,1.215,4.773,1.216h0.004 c5.505,0,9.986-4.48,9.989-9.985C22.001,9.325,20.963,6.816,19.077,4.928z M16.898,15.554c-0.208,0.583-1.227,1.145-1.685,1.186 c-0.458,0.042-0.887,0.207-2.995-0.624c-2.537-1-4.139-3.601-4.263-3.767c-0.125-0.167-1.019-1.353-1.019-2.581 S7.581,7.936,7.81,7.687c0.229-0.25,0.499-0.312,0.666-0.312c0.166,0,0.333,0,0.478,0.006c0.178,0.007,0.375,0.016,0.562,0.431 c0.222,0.494,0.707,1.728,0.769,1.853s0.104,0.271,0.021,0.437s-0.125,0.27-0.249,0.416c-0.125,0.146-0.262,0.325-0.374,0.437 c-0.125,0.124-0.255,0.26-0.11,0.509c0.146,0.25,0.646,1.067,1.388,1.728c0.954,0.85,1.757,1.113,2.007,1.239 c0.25,0.125,0.395,0.104,0.541-0.063c0.146-0.166,0.624-0.728,0.79-0.978s0.333-0.208,0.562-0.125s1.456,0.687,1.705,0.812 c0.25,0.125,0.416,0.187,0.478,0.291C17.106,14.471,17.106,14.971,16.898,15.554z"></path>
+                      </svg>
+                      <div>
+                        <div class="text-sm text-gray-400">Whatsapp</div>
+                        <a
+                          href="tel:+5527981078568"
+                          class="text-white hover:text-cyan-400 transition-colors">(27) 98107-8568</a>
                       </div>
                     </div>
                   </div>
 
                   <div class="mt-6">
-                    <div class="text-white mb-2">Follow Us</div>
+                    <div class="text-white mb-2">Nossas Redes</div>
                     <div class="flex space-x-3">
                       <a
-                        href="#"
                         class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
                         <svg
                           class="w-4 h-4"
@@ -702,7 +743,6 @@ $texto = 'set';
                         </svg>
                       </a>
                       <a
-                        href="#"
                         class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
                         <svg
                           class="w-4 h-4"
@@ -713,7 +753,6 @@ $texto = 'set';
                         </svg>
                       </a>
                       <a
-                        href="#"
                         class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
                         <svg
                           class="w-4 h-4"
@@ -732,19 +771,30 @@ $texto = 'set';
                 <div
                   class="bg-gray-900/70 backdrop-blur-lg border border-indigo-500/20 p-6 rounded-xl shadow-xl">
                   <div class="text-xl font-medium text-white mb-4">
-                    Send us a message
+                    Envie uma mensagem
                   </div>
                   <form>
                     <div class="grid md:grid-cols-2 gap-4 mb-4">
                       <div>
                         <label
-                          for="name"
-                          class="block text-sm text-gray-400 mb-1">Name</label>
+                          for="nome"
+                          class="block text-sm text-gray-400 mb-1">Nome</label>
                         <input
                           type="text"
-                          id="name"
+                          id="nome"
                           class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
+                      <div>
+                        <label
+                          for="empresa"
+                          class="block text-sm text-gray-400 mb-1">Empresa</label>
+                        <input
+                          type="text"
+                          id="empresa"
+                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                      </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-4 mb-4">
                       <div>
                         <label
                           for="email"
@@ -754,20 +804,20 @@ $texto = 'set';
                           id="email"
                           class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
-                    </div>
-                    <div class="mb-4">
-                      <label
-                        for="subject"
-                        class="block text-sm text-gray-400 mb-1">Subject</label>
-                      <input
-                        type="text"
-                        id="subject"
-                        class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                      <div>
+                        <label
+                          for="whatsapp"
+                          class="block text-sm text-gray-400 mb-1">Whatsapp</label>
+                        <input
+                          type="text"
+                          id="whatsapp"
+                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                      </div>
                     </div>
                     <div class="mb-6">
                       <label
                         for="message"
-                        class="block text-sm text-gray-400 mb-1">Message</label>
+                        class="block text-sm text-gray-400 mb-1">Mensagem</label>
                       <textarea
                         id="message"
                         rows="4"
@@ -780,7 +830,7 @@ $texto = 'set';
                         type="submit"
                         class="w-full px-6 py-3 bg-gradient-to-r from-indigo-900/90 to-purple-900/90 rounded-lg text-white text-base font-medium relative z-10 flex items-center justify-center gap-2 group-hover:from-indigo-800/90 group-hover:to-purple-800/90 transition-all duration-300">
                         <span
-                          class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Send Message</span>
+                          class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Enviar Mensagem</span>
                       </button>
                     </div>
                   </form>
@@ -808,7 +858,7 @@ $texto = 'set';
                     class="absolute inset-0 bg-gradient-to-br from-indigo-900/20 to-purple-900/20"></div>
                   <div
                     class="font-bold text-xs bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
-                    FN
+                    <img src="../img/img-sistema/logo-reset-gradiente.svg" class="w-6 h-6" alt="Logo Reset">
                   </div>
                 </div>
               </div>
@@ -822,24 +872,23 @@ $texto = 'set';
           <div class="flex justify-center mb-4 md:mb-0">
             <a
               href="#home"
-              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Home</a>
+              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Início</a>
             <a
               href="#about"
-              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">About</a>
+              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Sobre</a>
             <a
               href="#services"
-              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Services</a>
+              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Serviços</a>
             <a
               href="#portfolio"
-              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Portfolio</a>
+              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Depoimentos</a>
             <a
               href="#contact"
-              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Contact</a>
+              class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Contato</a>
           </div>
 
           <div class="flex space-x-3">
             <a
-              href="#"
               class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -847,7 +896,6 @@ $texto = 'set';
               </svg>
             </a>
             <a
-              href="#"
               class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -855,7 +903,6 @@ $texto = 'set';
               </svg>
             </a>
             <a
-              href="#"
               class="w-8 h-8 rounded-full bg-indigo-900/50 flex items-center justify-center text-white hover:bg-indigo-800 transition-colors">
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path

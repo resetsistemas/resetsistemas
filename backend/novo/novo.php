@@ -329,19 +329,44 @@ $texto = 'set';
               <div
                 class="w-20 h-1 bg-gradient-to-r from-cyan-500 to-indigo-500 mx-auto"></div>
             </div>
-            <div class="grid md:grid-cols-3 gap-6">
-              <!-- Service Card 1 -->
-              <div class="relative group">
-                <div
-                  class="absolute inset-0 bg-indigo-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
-                <div
-                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-indigo-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-indigo-500/40 transition-all duration-300">
-                  <div class="flex flex-col h-full">
-                    <div class="flex items-center mb-4">
-                      <div
-                        class="w-10 h-10 rounded bg-indigo-900/60 flex items-center justify-center mr-3 group-hover:bg-indigo-800/70 transition-colors">
+            <div class="flex flex-col gap-6">
+              <div class="grid md:grid-cols-3 gap-6">
+                <!-- Service Card 1 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-indigo-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-indigo-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-indigo-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-indigo-900/60 flex items-center justify-center mr-3 group-hover:bg-indigo-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-indigo-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors">
+                          ERP de alta confiabilidade
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Confiabilidade real para gerenciar dados, processos e resultados com segurança e eficiência.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-indigo-400 hover:text-indigo-300 inline-flex items-center">
+                        Eu quero
                         <svg
-                          class="w-5 h-5 text-indigo-300"
+                          class="w-4 h-4 ml-1"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24">
@@ -349,49 +374,150 @@ $texto = 'set';
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                            d="M9 5l7 7-7 7"></path>
                         </svg>
-                      </div>
-                      <div
-                        class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors">
-                        ERP de alta confiabilidade
-                      </div>
+                      </a>
                     </div>
-                    <p class="text-gray-400 mb-4">
-                      Confiabilidade real para gerenciar dados, processos e resultados com segurança e eficiência.
-                    </p>
-                    <a
-                      href="#contact"
-                      class="mt-auto text-indigo-400 hover:text-indigo-300 inline-flex items-center">
-                      Eu quero
-                      <svg
-                        class="w-4 h-4 ml-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
+                  </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-purple-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-purple-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-purple-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-purple-900/60 flex items-center justify-center mr-3 group-hover:bg-purple-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-purple-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-purple-300 group-hover:text-purple-200 transition-colors">
+                          Desenvolvimento de sistemas
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Transformamos suas demandas em sistemas funcionais, inteligentes e totalmente adaptados.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-purple-400 hover:text-purple-300 inline-flex items-center">
+                        Eu quero
+                        <svg
+                          class="w-4 h-4 ml-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-cyan-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-cyan-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-cyan-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-cyan-900/60 flex items-center justify-center mr-3 group-hover:bg-cyan-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-cyan-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-cyan-300 group-hover:text-cyan-200 transition-colors">
+                          Integração E-commerce
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Unifique operações online e offline com integração completa entre sistema e loja virtual.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-cyan-400 hover:text-cyan-300 inline-flex items-center">
+                        Eu quero
+                        <svg
+                          class="w-4 h-4 ml-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <!-- Service Card 2 -->
-              <div class="relative group">
-                <div
-                  class="absolute inset-0 bg-purple-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
-                <div
-                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-purple-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-purple-500/40 transition-all duration-300">
-                  <div class="flex flex-col h-full">
-                    <div class="flex items-center mb-4">
-                      <div
-                        class="w-10 h-10 rounded bg-purple-900/60 flex items-center justify-center mr-3 group-hover:bg-purple-800/70 transition-colors">
+              <div class="grid md:grid-cols-3 gap-6">
+                <!-- Service Card 1 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-pink-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-pink-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-pink-900/60 flex items-center justify-center mr-3 group-hover:bg-pink-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-pink-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-pink-300 group-hover:text-pink-200 transition-colors">
+                          Banco multi-empresa
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Confiabilidade real para gerenciar dados, processos e resultados com segurança e eficiência.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-pink-400 hover:text-pink-300 inline-flex items-center">
+                        Eu quero
                         <svg
-                          class="w-5 h-5 text-purple-300"
+                          class="w-4 h-4 ml-1"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24">
@@ -399,49 +525,49 @@ $texto = 'set';
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                            d="M9 5l7 7-7 7"></path>
                         </svg>
-                      </div>
-                      <div
-                        class="font-medium text-lg text-purple-300 group-hover:text-purple-200 transition-colors">
-                        Desenvolvimento de sistemas
-                      </div>
+                      </a>
                     </div>
-                    <p class="text-gray-400 mb-4">
-                      Transformamos suas demandas em sistemas funcionais, inteligentes e totalmente adaptados.
-                    </p>
-                    <a
-                      href="#contact"
-                      class="mt-auto text-purple-400 hover:text-purple-300 inline-flex items-center">
-                      Eu quero
-                      <svg
-                        class="w-4 h-4 ml-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
                   </div>
                 </div>
-              </div>
 
-              <!-- Service Card 3 -->
-              <div class="relative group">
-                <div
-                  class="absolute inset-0 bg-cyan-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
-                <div
-                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-cyan-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-cyan-500/40 transition-all duration-300">
-                  <div class="flex flex-col h-full">
-                    <div class="flex items-center mb-4">
-                      <div
-                        class="w-10 h-10 rounded bg-cyan-900/60 flex items-center justify-center mr-3 group-hover:bg-cyan-800/70 transition-colors">
+                <!-- Service Card 2 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-emerald-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-emerald-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-emerald-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-emerald-900/60 flex items-center justify-center mr-3 group-hover:bg-emerald-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-emerald-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-emerald-300 group-hover:text-emerald-200 transition-colors">
+                          Controle de Frota
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Transformamos suas demandas em sistemas funcionais, inteligentes e totalmente adaptados.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-emerald-400 hover:text-emerald-300 inline-flex items-center">
+                        Eu quero
                         <svg
-                          class="w-5 h-5 text-cyan-300"
+                          class="w-4 h-4 ml-1"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24">
@@ -449,33 +575,60 @@ $texto = 'set';
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            d="M9 5l7 7-7 7"></path>
                         </svg>
-                      </div>
-                      <div
-                        class="font-medium text-lg text-cyan-300 group-hover:text-cyan-200 transition-colors">
-                        Integração E-commerce
-                      </div>
+                      </a>
                     </div>
-                    <p class="text-gray-400 mb-4">
-                      Unifique operações online e offline com integração completa entre sistema e loja virtual.
-                    </p>
-                    <a
-                      href="#contact"
-                      class="mt-auto text-cyan-400 hover:text-cyan-300 inline-flex items-center">
-                      Eu quero
-                      <svg
-                        class="w-4 h-4 ml-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
+                  </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="relative group">
+                  <div
+                    class="absolute inset-0 bg-blue-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                  <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-950 border border-blue-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-blue-500/40 transition-all duration-300">
+                    <div class="flex flex-col h-full">
+                      <div class="flex items-center mb-4">
+                        <div
+                          class="w-10 h-10 rounded bg-blue-900/60 flex items-center justify-center mr-3 group-hover:bg-blue-800/70 transition-colors">
+                          <svg
+                            class="w-5 h-5 text-blue-300"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                          </svg>
+                        </div>
+                        <div
+                          class="font-medium text-lg text-blue-300 group-hover:text-blue-200 transition-colors">
+                          Produção industrial
+                        </div>
+                      </div>
+                      <p class="text-gray-400 mb-4">
+                        Unifique operações online e offline com integração completa entre sistema e loja virtual.
+                      </p>
+                      <a
+                        href="#contact"
+                        class="mt-auto text-cyan-400 hover:text-cyan-300 inline-flex items-center">
+                        Eu quero
+                        <svg
+                          class="w-4 h-4 ml-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -505,7 +658,314 @@ $texto = 'set';
                 class="w-20 h-1 bg-gradient-to-r from-cyan-500 to-indigo-500 mx-auto"></div>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-6">
+            <div class="grid md:grid-cols-1 gap-6">
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-indigo-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-indigo-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-indigo-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-indigo-900/60 flex items-center justify-center mr-3 group-hover:bg-indigo-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-indigo-500/20 group-hover:border-indigo-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Card 2 -->
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-purple-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-purple-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-purple-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-purple-900/60 flex items-center justify-center mr-3 group-hover:bg-purple-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-purple-500/20 group-hover:border-purple-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Card 3 -->
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-cyan-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-cyan-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-cyan-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-cyan-900/60 flex items-center justify-center mr-3 group-hover:bg-cyan-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-cyan-500/20 group-hover:border-cyan-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Card 4 -->
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-pink-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-pink-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-pink-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-pink-900/60 flex items-center justify-center mr-3 group-hover:bg-pink-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-pink-500/20 group-hover:border-pink-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Card 5 -->
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-emerald-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-emerald-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-emerald-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-emerald-900/60 flex items-center justify-center mr-3 group-hover:bg-emerald-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-emerald-500/20 group-hover:border-emerald-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Card 5 -->
+              <div class="relative group">
+                <div
+                  class="absolute inset-0 bg-blue-500/5 rounded-lg opacity-0 group-hover:opacity-100 blur-sm transition-opacity"></div>
+                <div
+                  class="bg-gradient-to-br from-gray-900 to-gray-950 border border-blue-500/20 rounded-lg p-6 relative z-10 h-full group-hover:border-blue-500/40 transition-all duration-300">
+                  <div class="flex flex-col h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="w-14 h-14 rounded-full bg-blue-900/60 flex items-center justify-center mr-3 group-hover:bg-blue-800/70 transition-colors">
+                        <img src="../img/img-sistema/perfil.svg" alt="Perfil" class="p-1 rounded-full w-full h-full object-contain" />
+                      </div>
+
+                      <div class="font-medium text-lg text-indigo-300 group-hover:text-indigo-200 transition-colors group">
+                        <div class="nome">
+                          <p>Mariana Ferreira</p>
+                          <div class="estrelas">
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                            <i class="fa-solid fa-star space-x-1 text-xl 
+                            bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 
+                            group-hover:from-yellow-300 group-hover:via-yellow-200 group-hover:to-yellow-400
+                            bg-clip-text text-transparent transition-colors duration-500"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="content text-gray-400 group-hover:text-gray-300 transition-colors duration-300 mb-4">
+                      <blockquote class="border-l-4 pl-4 italic text-gray-400 group-hover:text-gray-300 border-blue-500/20 group-hover:border-blue-500/40 transition-colors duration-300">
+                        "A Reset Sistemas trouxe resultados excepcionais para a empresa. Agora, ela opera com eficiência e produtividade, superando todas as expectativas."
+                      </blockquote>
+                      <p>- Sócio-proprietário da MotoHub</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6" style="display:none;">
               <!-- Portfolio Item 1 -->
               <div class="relative group overflow-hidden rounded-xl">
                 <div
@@ -782,7 +1242,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="nome"
-                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                          class="input-nome w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" maxlength="60" />
                       </div>
                       <div>
                         <label
@@ -791,7 +1251,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="empresa"
-                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                          class="input-nome w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" maxlength="60" />
                       </div>
                     </div>
                     <div class="grid md:grid-cols-2 gap-4 mb-4">
@@ -802,7 +1262,7 @@ $texto = 'set';
                         <input
                           type="email"
                           id="email"
-                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                          class="input-email w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
                       <div>
                         <label
@@ -811,7 +1271,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="whatsapp"
-                          class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
+                          class="whatsapp w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
                     </div>
                     <div class="mb-6">
@@ -869,7 +1329,7 @@ $texto = 'set';
             </div>
           </div>
 
-          <div class="flex justify-center mb-4 md:mb-0">
+          <div class="links-footer flex flex-wrap justify-center mb-4 md:mb-0">
             <a
               href="#home"
               class="text-gray-400 hover:text-cyan-400 mx-2 transition-colors">Início</a>
@@ -912,13 +1372,14 @@ $texto = 'set';
           </div>
         </div>
         <div class="text-center text-gray-500 text-sm mt-8">
-          © 2025 Reset Sistemas. Todos os direitos reservados.<br>Theme FutureNav.
+          © 2025 Reset Sistemas. Todos os direitos reservados.<br>FutureNav.
         </div>
       </div>
     </footer>
 
     <script src="script.js?v=<?php echo filemtime('script.js'); ?>"></script>
     <script src="maquinadeescrever.js?v=<?php echo filemtime('maquinadeescrever.js'); ?>"></script>
+    <script src="../scripts/inputs.js?v=<?php echo filemtime('../scripts/inputs.js'); ?>"></script>
   </div>
 </body>
 

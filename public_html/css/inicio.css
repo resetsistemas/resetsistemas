@@ -389,7 +389,7 @@ input:-webkit-autofill,
 .content {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 blockquote {
@@ -445,6 +445,13 @@ blockquote {
   .nav-link::after {
     display: none;
   }
+}
+
+@media (max-width: 600px) {
+  blockquote {
+    font-size: 1em;
+  }
+
 }
 
 /* Dark Overlay for Modals */

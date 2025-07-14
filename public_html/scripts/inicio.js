@@ -36,6 +36,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  const contactButtons = document.querySelectorAll(".contact-btn");
+  contactButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (mobileMenu.classList.contains("open")) {
+        mobileMenuButton.classList.remove("active");
+        mobileMenu.style.height = "0";
+        mobileMenu.classList.remove("open");
+      }
+    });
+  });
+
   // Navbar scroll effect
   window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {

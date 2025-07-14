@@ -97,16 +97,14 @@ $texto = 'set';
             <a
               href="#portfolio"
               class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Depoimentos</a>
-            <a
-              href="#contact"
-              class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Contato</a>
             <div class="relative ml-4 group">
               <div
                 class="absolute -inset-0.5 bg-gradient-to-r from-indigo-600/50 to-purple-600/50 rounded-lg blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
               <button
-                class="contact-btn px-4 py-2 bg-gradient-to-r from-indigo-900/90 to-purple-900/90 rounded-lg text-white text-sm font-medium relative z-10 flex items-center justify-center gap-2 group-hover:from-indigo-800/90 group-hover:to-purple-800/90 transition-all duration-300">
+                class="contact-btn px-4 py-2 bg-gradient-to-r from-indigo-900/90 to-purple-900/90 rounded-lg text-white text-sm font-medium relative z-10 flex items-center justify-center gap-2 group-hover:from-indigo-800/90 group-hover:to-purple-800/90 transition-all duration-300"
+                onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
                 <span
-                  class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Connect</span>
+                  class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Contato</span>
               </button>
             </div>
           </div>
@@ -150,14 +148,12 @@ $texto = 'set';
             <a
               href="#portfolio"
               class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Depoimentos</a>
-            <a
-              href="#contact"
-              class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Contato</a>
             <div class="px-4 pt-2">
               <button
-                class="contact-btn w-full px-4 py-2 bg-gradient-to-r from-indigo-700 to-purple-700 rounded-lg text-white text-sm font-medium flex items-center justify-center gap-2 hover:from-indigo-600 hover:to-purple-600 transition-all duration-300">
+                class="contact-btn w-full px-4 py-2 bg-gradient-to-r from-indigo-700 to-purple-700 rounded-lg text-white text-sm font-medium flex items-center justify-center gap-2 hover:from-indigo-600 hover:to-purple-600 transition-all duration-300"
+                onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
                 <span
-                  class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Connect</span>
+                  class="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Contato</span>
               </button>
             </div>
           </div>
@@ -558,7 +554,7 @@ $texto = 'set';
                         </div>
                       </div>
                       <p class="text-gray-400 mb-4">
-                        Gerencie múlticas empresas em um único sistema, com separação financeira e controle unificado.
+                        Gerencie múltiplas empresas em um único sistema, com separação financeira e controle unificado.
                       </p>
                       <a
                         href="#contact"
@@ -1309,6 +1305,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="nome"
+                          name="nome"
                           class="input-nome w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" maxlength="60" />
                       </div>
                       <div>
@@ -1318,6 +1315,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="empresa"
+                          name="empresa"
                           class="input-nome w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" maxlength="60" />
                       </div>
                     </div>
@@ -1329,6 +1327,7 @@ $texto = 'set';
                         <input
                           type="email"
                           id="email"
+                          name="email"
                           class="input-email w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
                       <div>
@@ -1338,6 +1337,7 @@ $texto = 'set';
                         <input
                           type="text"
                           id="whatsapp"
+                          name="whatsapp"
                           class="whatsapp w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors" />
                       </div>
                     </div>
@@ -1347,6 +1347,7 @@ $texto = 'set';
                         class="block text-sm text-gray-400 mb-1">Mensagem</label>
                       <textarea
                         id="menssagem"
+                        name="mensagem"
                         rows="4"
                         class="w-full bg-gray-800/50 border border-gray-700 focus:border-cyan-500 rounded-lg py-2 px-3 text-white focus:outline-none focus:ring-1 focus:ring-cyan-500/50 transition-colors resize-none"></textarea>
                     </div>
@@ -1447,6 +1448,7 @@ $texto = 'set';
     <script src="scripts/inicio.js?v=<?php echo filemtime('scripts/inicio.js'); ?>"></script>
     <script src="scripts/maquinadeescrever.js?v=<?php echo filemtime('scripts/maquinadeescrever.js'); ?>"></script>
     <script src="scripts/inputs.js?v=<?php echo filemtime('scripts/inputs.js'); ?>"></script>
+    <script src="scripts/upload-contato.js?v=<?php echo filemtime('scripts/upload-contato.js'); ?>"></script>
   </div>
 </body>
 
